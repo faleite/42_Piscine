@@ -834,7 +834,7 @@ ___
 ### String de caracteres
 
 - É um grupo de bytes, terminado em um byte de valor 0.
-- o valor 0, equivale ao caractere **\0** na tabela ASCII.
+- o valor 0, equivale ao caractere \0 na tabela ASCII.
 - Uma string de caracteres é um conjunto de bytes seguidos que termina com 0.
 - Em geral, acessamos uma string de caracteres via char*, pois é o endereço\
 do primeiro caractere.
@@ -865,7 +865,7 @@ int main(void)
 ```
 ___
 
-### Utilisação geral dos ponteiros
+### Utilização geral dos ponteiros
 
 - Dois usos importantes do ponteiro:
     - Como usar:
