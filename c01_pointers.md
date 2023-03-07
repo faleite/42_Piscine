@@ -24,19 +24,39 @@ ___
 int main(void)
 {
     int a;
+    
+    a = 24;
 
     // Declação do ponteiro
     int *ptr;
+    
     // Declaração de ponteiro de um ponteiro
     int **ptr2;
+    
+    // nesta fase *ptr foi criado para apontar para algum endereço
+    // ainda nao ha nada nele (nenhum endereco)
+    printf("%p\n", ptr); // output: $ (nil)
+    
+    
 
     // Recuperar o endereço de "int a;"
     ptr = &a;  // &a leva ao endereço de "int a;"
-    printf("%p\n", ptr);
+    printf("%p\n", ptr); // output: $ 0x7ffdc92e8954
+    
     // Recuperar o endereço de um ponteiro
-    ptr2 = &ptr;
-    printf("%p\n", ptr2);
-
+    ptr2 = &ptr; // por "ptr" estar apontando para um endereco, 
+    // ... ele passa a ter o seu proprio endereco
+    printf("%p\n", ptr2); // output: $ 0x7ffdc92e8958
+    
+    // foi colocado o valor 42 no ponteiro do tipo inteiro
+    *ptr = 42;
+    
+    // Mosta a que endereço o ponteiro esta apontando no momento
+    printf("%p\n", ptr); // output: $ 0x7ffdc92e8954
+    
+    // imprime o valor de "a"
+    printf("%i\n", a); // output: $ 42
+    
     return (0);
 }
 ```
