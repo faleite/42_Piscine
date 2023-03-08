@@ -1,20 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   ft_sort_int_tab.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: faaraujo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/07 16:22:02 by faaraujo          #+#    #+#             */
-/*   Updated: 2023/03/08 19:52:14 by faaraujo         ###   ########.fr       */
+/*   Created: 2023/03/08 19:56:14 by faaraujo          #+#    #+#             */
+/*   Updated: 2023/03/08 21:09:42 by faaraujo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_swap(int *a, int *b)
+void	ft_sort_int_tab(int *tab, int size)
 {
+	int	i;
+	int	j;
 	int	tmp;
 
-	tmp = *a;
-	*a = *b;
-	*b = tmp;
+	j = 0;
+	while (j < size)
+	{
+		i = 0;
+		while (i < size -1)
+		{
+			tmp = tab[i];
+			if (tab[i] > tab[i + 1])
+			{
+				tab[i] = tab[i + 1];
+				tab[i + 1] = tmp;
+			}
+			i++;
+		}
+		j++;
+	}
 }

@@ -1,20 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: faaraujo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/07 16:22:02 by faaraujo          #+#    #+#             */
-/*   Updated: 2023/03/08 19:52:14 by faaraujo         ###   ########.fr       */
+/*   Created: 2023/03/08 13:24:31 by faaraujo          #+#    #+#             */
+/*   Updated: 2023/03/08 17:02:16 by faaraujo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_swap(int *a, int *b)
-{
-	int	tmp;
+#include <unistd.h>
 
-	tmp = *a;
-	*a = *b;
-	*b = tmp;
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
+
+void	ft_putstr(char *str)
+{
+	int	i;
+
+	i = 0;
+	while (str[i] != 0)
+	{
+		ft_putchar(str[i]);
+		i++;
+	}
 }

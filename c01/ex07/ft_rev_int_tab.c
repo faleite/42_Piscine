@@ -1,20 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   ft_rev_int_tab.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: faaraujo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/07 16:22:02 by faaraujo          #+#    #+#             */
-/*   Updated: 2023/03/08 19:52:14 by faaraujo         ###   ########.fr       */
+/*   Created: 2023/03/08 17:38:33 by faaraujo          #+#    #+#             */
+/*   Updated: 2023/03/08 19:26:56 by faaraujo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_swap(int *a, int *b)
+void	ft_dev_int_tab(int *tab, int size)
 {
+	int	i;
 	int	tmp;
 
-	tmp = *a;
-	*a = *b;
-	*b = tmp;
+	i = 0;
+	while (i < size / 2)
+	{
+		tmp = tab[i];
+		tab[i] = tab[size - 1 - i];
+		tab[size - 1 - i] = tmp;
+		i++;
+	}
 }
