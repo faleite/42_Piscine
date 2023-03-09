@@ -84,20 +84,20 @@ int	main(void)
 {
 	int	a;
 	int	b;
+	int	div;
+	int	mod;
 
-	a = 10;
-	b = 0;
-	/* a = 12; */
-	/* b = 10; */
+	a = 12;
+	b = 10;
 
-	ft_ultimate_div_mod(&a, &b);
-	
-	printf("Result Div: %d\nResult Mod: %d\n", a, b);
+	ft_div_mod(a, b, &div, &mod);
+
+	printf("Result Div: %d\nResult Mod: %d\n", div, mod);
 
 	return (0);
 }
 ```
-___
+__
 
 ## ex04
 ```c
