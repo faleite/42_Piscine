@@ -57,7 +57,8 @@ ___
 ```c
 #include <stdio.h>
 
-int     main(void)
+int
+main(void)
 {
         /* char str[] = "12936473850"; */
         /* char    str[] = "[a12;,."; */
@@ -112,14 +113,16 @@ int     main(void)
 ```
 ___
 ## ex06
+
 ```c
 #include <stdio.h>
 
 int     main(void)
 {
         /* char str[] = "Bendrf/&684"; */
-        char str[] = "/[^\x20-\x7f]/";
+        /* char str[] = "/[^\x20-\x7f]/"; */
         /* char str[] = ""; */
+        /* char str[] = "fhor\ntd"; */
         int     test;
 
         test = ft_str_is_printable(str);
@@ -129,3 +132,77 @@ int     main(void)
         return (0);
 }
 ```
+___
+## ex07
+```c
+#include <stdio.h>
+
+int     main(void)
+{
+        char    str[] = "abdrD19";
+
+        ft_strupcase(str);
+
+        printf("str: %s\n", str);
+}
+```
+____
+## ex08
+```c
+#include <stdio.h>
+
+int     main(void)
+{
+        char    str[] = "ABCdE23Ac";
+
+        ft_strlowcase(str);
+        printf("str: %s\n", str);
+}
+```
+___
+## ex09
+```c
+#include <stdio.h>
+int     main(void)
+{
+        char    str[] = "ola, tudo bem? 42palavras quarenta-e-duas; cinquenta+e+um";
+
+        ft_strcapitalize(str);
+
+        printf("%s\n", str);
+
+        return (0);
+}
+```
+___
+## ex10
+
+/* "dest" garantir que a variavel "dest" nao seja ultrapassada
+ * "src" origem5
+ * "size" tamanho maximo de destino */
+```c
+int     main(void)
+{
+        char    dest[] = "test";
+        char    src[] = "faxinass";
+        unsigned int    size;
+
+        size = 7;
+
+        printf("Length: %d\n", ft_strlcpy(dest, src, size));
+        printf("Dest: %s\n", dest);
+        return (0);
+}
+```
+___
+## ex11
+```c
+int     main()                              
+{                                           
+        char    str[] = "Ola\r\nesta bem?"; 
+                                            
+        ft_putstr_with_non_printable(str);  
+}
+```
+___
+

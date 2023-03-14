@@ -1,0 +1,30 @@
+# Anotacoes do C02
+
+## while (str[i])
+- é importante lembrar de incluir um caractere nulo ('\0') no final da string,\
+para indicar o fim da mesma. Caso contrário, a função pode continuar\
+a iterar sobre a memória além do fim da string, o que também pode levar a comportamentos indefinidos.
+
+## char *str
+- a variável str é inicializada com um ponteiro para uma string literal, que não\
+pode ser modificada. Portanto, tentar modificar os caracteres desta string,\
+ocorre um comportamento indefinido, podendo causar falhas no programa.
+```c
+char *str = "abdrD19";
+```
+- Para corrigir isso, a variável str deve ser inicializada com uma array de caracteres que possa ser modificada, como por exemplo:
+```c
+char str[] = "abdrD19";
+```
+## strcpy function
+- A função strcpy copia a string de origem para o buffer de destino até que o caractere nulo final seja encontrado na string de origem. O buffer de destino deve ter espaço suficiente para armazenar a string de origem e o caractere nulo final. A função retorna um ponteiro para o buffer de destino.
+
+## strncpy function
+- A função strncpy é semelhante à função strcpy, mas adiciona uma verificação do tamanho do buffer de destino e uma opção de especificar o número máximo de caracteres que podem ser copiados. A função copia os primeiros n caracteres da string de origem para o buffer de destino e, em seguida, preenche o restante do buffer de destino com caracteres nulos. Se a string de origem for menor que o número máximo de caracteres especificado, o restante do buffer de destino será preenchido com caracteres nulos.
+
+- A função retorna um ponteiro para o buffer de destino.
+
+## strlcpy 
+- A função strlcpy é semelhante à função strncpy, mas possui algumas melhorias de segurança. A função copia a string de origem para o buffer de destino até que o tamanho máximo seja atingido ou a string de origem chegue ao seu fim, o que ocorrer primeiro. A diferença em relação à função strncpy é que a função strlcpy garante que o buffer de destino seja nulo-terminado, mesmo se o tamanho máximo for atingido.
+
+- A função retorna o comprimento total da string de origem que foi copiada, sem contar o caractere nulo final. Se a string de origem for maior que o tamanho máximo especificado, a função retornará o tamanho máximo menos um, que é o tamanho do buffer de destino menos um caractere para o caractere nulo final.
