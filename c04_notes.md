@@ -1,5 +1,29 @@
 # C04
 
+## Botao on of
+- Uso do **0** e **1** como condicao no **if** e **while**
+```c
+#include <stdio.h>
+
+int main() {
+  int on;
+  
+  on = 1;
+  while (on) // on = 1; entra no while
+  {
+    printf("Entrou");
+    on = 0; // agora passa a ser off
+    }
+  if (on) // on = 0; passa a ser off
+  {
+    printf("Nao entrou");
+    }
+
+  return 0;
+}
+```
+___
+
 ## ex02 Recursion
 - Exemplo com: nb = 1234
 ```c
