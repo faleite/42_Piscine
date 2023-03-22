@@ -1,6 +1,6 @@
 # C07
 
-# strdup
+## strdup
 - **strdup** e uma funcao que **duplica a string fornecida**
 - Esta presente na biblioteca **stdlib.h**
 ```c
@@ -19,3 +19,5 @@ char    *ft_strdup(char *src)
 ```
 - A memória alocada dinamicamente vem de um pool de memória conhecido como\
 **heap** (amontoar).
+
+##
