@@ -12,11 +12,11 @@ maff_alpha | 	rev_print | 	inter |
 maff_revalpha | 	rot_13 | 	is_power_of_2 |
 only_a | 	rotone | 	last_word |
 only_z | 	search_and_replace \*| 	max |
-| 	ulstr \*| 	print_bits | 	print_hex |
-| 	| 	reverse_bits | 	rstr_capitalizer |
-| 	| 	swap_bits | 	str_capitalizer |
-| 	| 	union | 	tab_mult |
-| 	| 	wdmatch | 	|
+| 	ulstr \*| print_bits X | 	print_hex |
+| 	| 	reverse_bits X | 	rstr_capitalizer |
+| 	| 	swap_bits X | 	str_capitalizer |
+| 	| 	union X | 	tab_mult |
+| 	| 	wdmatch *| 	|
 
 ___
 

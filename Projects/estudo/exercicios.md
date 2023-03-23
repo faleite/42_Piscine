@@ -646,6 +646,7 @@ Se o número de argumentos não for 1, o programa exibirá uma nova linha.
 
 
 EXEMPLOS:
+```c
 $>./rot_13 "abc"
 nop
 $>./rot_13 "My horse is Amazing." | cat -e
@@ -658,7 +659,7 @@ $>
 $>./rot_13 "" | cat -e
 $
 $>
-
+```
 
 RESOLUÇÃO:
 ```C
@@ -1150,6 +1151,7 @@ If the number of arguments is not 2, the program displays \n.
 
 
 EXEMPLOS:
+```sh
 $>./union zpadinton "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
 zpadintoqefwjy$
 $>./union ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
@@ -1162,6 +1164,7 @@ $>
 $>./union "rien" | cat -e
 $
 $>
+```
 
 
 RESOLUÇÃO:
@@ -1188,6 +1191,7 @@ If the number of arguments is not 1, display only a newline.
 
 
 EXEMPLOS:
+```sh
 $>./alpha_mirror "abc"
 zyx
 $>./alpha_mirror "My horse is Amazing." | cat -e
@@ -1195,6 +1199,7 @@ Nb slihv rh Znzarmt.$
 $>./alpha_mirror | cat -e
 $
 $>
+```
 
 
 RESOLUÇÃO:
@@ -1236,6 +1241,7 @@ If the number of arguments is not 2, the program displays a \n.
 
 
 EXEMPLOS:
+```sh
 $>./wdmatch "faya" "fgvvfdxcacpolhyghbreda" | cat -e
 faya$
 $>./wdmatch "faya" "fgvvfdxcacpolhyghbred" | cat -e
@@ -1246,11 +1252,9 @@ $>./wdmatch "error" rrerrrfiiljdfxjyuifrrvcoojh | cat -e
 $
 $>./wdmatch | cat -e
 $
-
+```
 
 RESOLUÇÃO:
-
-
 
 # 2 do_op
 ARQUIVOS ESPERADOS: *.c, *.h
