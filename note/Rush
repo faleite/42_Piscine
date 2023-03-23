@@ -1,0 +1,30 @@
+O grupo SERÁ cadastrado para defesa automaticamente.
+• Não cancele, você não receberá um segundo.
+• Qualquer pergunta sobre o assunto complicaria o assunto.
+• Você deve seguir os procedimentos de submissão para todos os seus exercícios.
+• Este assunto pode mudar até uma hora antes do envio.
+• O programa deve compilar com os seguintes flags: -Wall -Wextra -Werror; e usa cc.
+• Se o seu programa não compilar, você obterá 0.
+• Seu programa deve ser escrito de acordo com a Norma. Se você tiver bônus
+arquivos/funções, eles são incluídos na verificação da norma e você receberá um 0 se houver um erro de norma dentro deles.
+• Você terá que lidar com os erros de forma coerente. Sinta-se à vontade para imprimir uma mensagem de erro,
+ou simplesmente devolver o controle ao usuário.
+• Os exercícios Rushes devem ser realizados em grupo de 2, 3 ou 4.
+• O número de corrida obrigatório para sua equipe seguirá esta regra:
+Índice alfabético da primeira letra do login do líder da equipe (de 1 a 26) módulo 5.
+• Você deve, portanto, fazer o projeto com a equipe imposta e aparecer no seu slot de defesa, com todos os seus companheiros de equipe.
+• Seu projeto deve estar pronto antes da defesa. O objetivo da defesa é você apresentar e explicar seu trabalho.
+• Cada membro do seu grupo deve estar totalmente ciente dos trabalhos do projeto. Se você optar por dividir a carga de trabalho, certifique-se de que todos entendam o que todos estão
+feito. Durante a defesa, serão feitas perguntas e a nota final será
+baseado nas piores explicações
+
+Nem é preciso dizer, mas reunir o grupo é sua responsabilidade. Você tem todos os meios para entrar em contato com seus companheiros de equipe: telefone, e-mail, pombo-correio, espiritismo, etc. A vida não é justa, é assim que as coisas são.
+• No entanto, se você realmente tentou de tudo, um de seus companheiros continua inacessível: faça o projeto de qualquer maneira e tentaremos ver o que podemos fazer sobre isso durante a defesa. Mesmo que o líder do grupo esteja ausente, você ainda terá acesso ao diretório de submissões.
+• Se você quiser pontos de bônus, pode enviar outros assuntos ou usar argumentos do programa para testar sua função.
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Submissão e avaliação por pares
+Entregue sua atribuição em seu repositório Git como de costume. Apenas o trabalho dentro do seu repositório será avaliado durante a defesa. Não hesite em verificar novamente os nomes de seus arquivos para garantir que estejam corretos.
+Como essas atribuições não são verificadas por um programa, sinta-se à vontade para organizar seus arquivos como
+desejar, desde que entregue os arquivos obrigatórios e cumpra os requisitos

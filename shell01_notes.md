@@ -1,7 +1,7 @@
 ## ex01
 ```sh
 
-id -Gn $FT_USER | tr ' ' ',' | tr -d "\n"
+groups $FT_USER | tr ' ' ',' | tr -d "\n"
 ```
 
 ## ex02
@@ -20,12 +20,15 @@ find . | wc -l | sed 's/ //g'
 
 ```sh
 
-ifconfig | grep -w ether | cut -d " " -f 2
+ifconfig | grep ether | awk -F' ' '{print $2}'
 ```
 
 ## ex05
 ```sh
+touch '"''\?$*'"'"'MaRViN'"'"'*$?\''"'
 
+# manter o arquivo com dois bytes
+truncate [nomearquivo] -s2
 ```
 
 ## ex06
