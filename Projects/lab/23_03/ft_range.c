@@ -5,47 +5,39 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: faaraujo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/21 10:10:39 by faaraujo          #+#    #+#             */
-/*   Updated: 2023/03/23 20:07:16 by faaraujo         ###   ########.fr       */
+/*   Created: 2023/03/23 19:38:40 by faaraujo          #+#    #+#             */
+/*   Updated: 2023/03/23 20:16:33 by faaraujo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
-int	*ft_range(int min, int max)
+int	*ft_range(int start, int end)
 {
 	int	*ptr;
 	int	len;
 
-	ptr = malloc(sizeof(int) * (max - min));
-	if (min >= max || ptr == NULL)
+	ptr = malloc(sizeof(int) * (end - start));
+	if (start >= end || ptr == NULL)
 		return (NULL);
 	len = 0;
-	while (min < max)
-		ptr[len++] = min++;
+	while (start <= end)
+		ptr[len++] = start++;
 	return (ptr);
 }
+
 #include <stdio.h>
-int     main(void)
+int	main(void)
 {
-        int     min;
-        int     max;
-        int     *array;
-        int     i;
-        int     len;
+	int	*range;
+	int	i;
 
-        min = 0;
-        max = 10;
-        i = 0;
-        len = max - min;
+	range = ft_range(-1, 2);
+	i = 0;
+	while (i < 4)
+	{
+		printf("%d ", range[i]);
+		i++;
+	}
 
-        array = ft_range(min, max);
-
-        while (i < len)
-        {
-                printf("%d ", array[i]);
-                i++;
-        }
-        return (0);
 }
-
