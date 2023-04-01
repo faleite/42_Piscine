@@ -1,7 +1,4 @@
-# Notas
-
-### Meus dados 
-fabricio_2310@hotmail.com
+# Notes
 
 ## Shell00
 
@@ -11,10 +8,10 @@ find . -type f -name \*.sh -printf "%f\n"
 cc -Wall -Wextra -Werror && ./a.out
 norminette
 
-## sh
-curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh; zsh
+## Install Oh-my-zsh
+curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
 
-# applications shortcuts
+# applications shortcuts for you ~/.zshrc
 alias v='vim'
 alias vf='vim f*'
 alias nc='norminette -R CheckForbiddenSourceHeadeir'
