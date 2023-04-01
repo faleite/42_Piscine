@@ -9,9 +9,10 @@ ___
 
 # 42p
 
-## Projects 
-
-### [Keep](https://keep.google.com/u/0/#home)
+## Piscine 
+### [Projects](https://github.com/faleite/42Piscine/tree/main/Notes/Projects)
+### [Tests](https://github.com/faleite/42Piscine/tree/main/Notes/Main)
+### [Articles](https://github.com/faleite/42Piscine/tree/main/Notes/Notes)
 ___
 
 ## Tutor
