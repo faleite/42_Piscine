@@ -7,7 +7,8 @@
 4. Se esses passos não funcionar digite exam ou exame.
 
 #### DURANTE O EXAME
-1. Não se esqueça de limpar, comentar, remover seus execs de código de teste e bibliotecas antes do envio
+1. Não se esqueça de limpar, comentar, remover seus execs de código de teste e\
+bibliotecas antes do envio
 3. Leia todos os assuntos e exemplos novamente antes do envio final
 
 #### DICAS PARA OS EXAMES
