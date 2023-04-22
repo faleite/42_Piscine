@@ -2,7 +2,7 @@
 
 ## My piscine in 42 Lisboa
 
-[![faaraujo's 42 stats](https://badge42.vercel.app/api/v2/clgrr2va0002108jo3cc5foww/stats?cursusId=9&coalitionId=112)](https://github.com/JaeSeoKim/badge42)
+[![faaraujo's 42 stats](https://badge42.vercel.app/api/v2/clgrr2va0002108jo3cc5foww/stats?cursusId=9&coalitionId=piscine)](https://github.com/JaeSeoKim/badge42)
 
 Projects | Grade |
 ---------|:-----:|
