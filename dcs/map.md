@@ -23,8 +23,4 @@
 ### **vim** <!-- markmap: foldAll -->
 - [Tutor](https://github.com/faleite/tutors/blob/main/src/vim.md)
 
-<!-- ### **Makefile** <!-- markmap: foldAll -->
-- [Tutor](https://github.com/faleite/cs50/blob/main/Makefile.md)
-- [Curso](https://youtube.com/playlist?list=PLLCFxfe9wkl-tCZvSCbzQGcNv9nSN5ZAP) -->
-
 ### [*github project*](https://github.com/faleite/42Piscine)
