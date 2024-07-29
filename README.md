@@ -2,7 +2,7 @@
 
 ## My piscine in 42 School 👋
 
-<img src="./dcs/42_rank.jpg" width=500>
+<img src="./dcs/42_rank.jpg" width=273>
 
 **See my interesting [study map!](https://faleite.github.io/42piscine)**
 
